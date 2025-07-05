@@ -1,3 +1,94 @@
+ body{
+    padding: 0;
+    margin: 0;
+ }
+ *{
+    box-sizing: border-box;
+ }
+ .header{
+    display: flex;
+    background-color: #fdd100;
+    justify-content: space-between;
+    padding: 10px 40px;
+    font-size: 14px; 
+
+   
+     
+ }
+  
+ .header a{
+  text-decoration: none;
+  color: #000;
+  margin-right: 20px;
+  font-weight: bold;
+ }
+ .header a:hover {
+  color: 	#c0392b;  
+  text-shadow: 0 0 8px #c0392b;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    padding: 14px 14px;
+    border-bottom: 1px solid gray;
+    border-radius: 12px; 
+
+}
+#logo{
+    height: 15vh;
+    padding: 0;
+ }
+.header2__left {
+    display: flex;
+    align-items: center;
+    gap: 20px;  
+    padding: 14px 14px;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    position: relative;
+     
+     
+}
+
+.searchBar input {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 500px;  
+    
+}
+
+
+.searchBar i {
+    position: absolute;
+    right: 10px;
+    color: gray;
+}
+
+.header2__right {
+  display: flex;
+  align-items: center;
+  margin-right: 250px;
+}
+ 
+ 
+.header2__right a{
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
 .container__main {
     justify-content: center;
     display: flex;
